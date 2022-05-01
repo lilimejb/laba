@@ -1,0 +1,362 @@
+[
+    {
+        "mass number": "227",
+        "number": "89",
+        "name": "Актиний",
+        "symbol": "Ас",
+        "T": "22 года",
+        "dimension": "years",
+        "radiation": "α, β"
+    },
+    {
+        "mass number": "243",
+        "number": "95",
+        "name": "Америций",
+        "symbol": "Аm",
+        "T": "7.8 * 10 ** 3 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "210",
+        "number": "85",
+        "name": "Астат",
+        "symbol": "At",
+        "T": "8.3 часа",
+        "dimension": "hours",
+        "radiation": "Эл. захв."
+    },
+    {
+        "mass number": "13",
+        "number": "7",
+        "name": "Азот",
+        "symbol": "N",
+        "T": "10 минут",
+        "dimension": "minutes",
+        "radiation": "α"
+    },
+    {
+        "mass number": "8",
+        "number": "4",
+        "name": "Бериллий",
+        "symbol": "Bi",
+        "T": "8.2 * 10 ** -17 секунды",
+        "dimension": "seconds",
+        "radiation": "α"
+    },
+    {
+        "mass number": "247",
+        "number": "97",
+        "name": "Берклий",
+        "symbol": "Вк",
+        "T": "10 ** 4 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "209",
+        "number": "83",
+        "name": "Висмут",
+        "symbol": "Bi",
+        "T": "1.9 * 10 ** 19 лет",
+        "dimension": "years",
+        "radiation": "α, β"
+    },
+    {
+        "mass number": "210",
+        "number": "83",
+        "name": "Висмут",
+        "symbol": "Bi",
+        "T": "5.012 суток",
+        "dimension": "days",
+        "radiation": "α, β"
+    },
+    {
+        "mass number": "3",
+        "number": "1",
+        "name": "Водород, Тритий",
+        "symbol": "H",
+        "T": "12.3 года",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "59",
+        "number": "26",
+        "name": "Железо",
+        "symbol": "Fe",
+        "T": "44.495 суток",
+        "dimension": "days",
+        "radiation": "β"
+    },
+    {
+        "mass number": "192",
+        "number": "77",
+        "name": "Иридий",
+        "symbol": "Ir",
+        "T": "74 дня",
+        "dimension": "days",
+        "radiation": ""
+    },
+    {
+        "mass number": "131",
+        "number": "53",
+        "name": "Йод",
+        "symbol": "I",
+        "T": "8.02070 дня",
+        "dimension": "days",
+        "radiation": "β"
+    },
+    {
+        "mass number": "40",
+        "number": "19",
+        "name": "Калий",
+        "symbol": "K",
+        "T": "1.248 * 10 ** 9 лет",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "249",
+        "number": "98",
+        "name": "Калифорний",
+        "symbol": "Cf",
+        "T": "360 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "113",
+        "number": "48",
+        "name": "Кадмий",
+        "symbol": "Cd",
+        "T": "7.7 * 10 ** 15 лет",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "60",
+        "number": "27",
+        "name": "Кобальт",
+        "symbol": "Co",
+        "T": "5.2713 года",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "247",
+        "number": "96",
+        "name": "Кюрий",
+        "symbol": "Cm",
+        "T": "4 * 10 ** 7 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "254",
+        "number": "99",
+        "name": "Эйнштейний",
+        "symbol": "Es",
+        "T": "480 дней",
+        "dimension": "days",
+        "radiation": "α"
+    },
+    {
+        "mass number": "253",
+        "number": "100",
+        "name": "Фермий",
+        "symbol": "Fm",
+        "T": "3 дня",
+        "dimension": "days",
+        "radiation": "Эл. захв., α"
+    },
+    {
+        "mass number": "32",
+        "number": "15",
+        "name": "Фосфор",
+        "symbol": "P",
+        "T": "14.26 суток",
+        "dimension": "days",
+        "radiation": ""
+    },
+    {
+        "mass number": "223",
+        "number": "87",
+        "name": "Франций",
+        "symbol": "Fr",
+        "T": "22 минуты",
+        "dimension": "minutes",
+        "radiation": "α, β"
+    },
+    {
+        "mass number": "21",
+        "number": "9",
+        "name": "Фтор",
+        "symbol": "F",
+        "T": "4.158 секунды",
+        "dimension": "seconds",
+        "radiation": "β, γ"
+    },
+    {
+        "mass number": "257",
+        "number": "103",
+        "name": "Лоуренсий",
+        "symbol": "Lr",
+        "T": "8 секунд",
+        "dimension": "seconds",
+        "radiation": "α"
+    },
+    {
+        "mass number": "256",
+        "number": "101",
+        "name": "Менделевий",
+        "symbol": "Md",
+        "T": "1.5 часа",
+        "dimension": "hours",
+        "radiation": "Эл. захв."
+    },
+    {
+        "mass number": "24",
+        "number": "11",
+        "name": "Натрий",
+        "symbol": "Na",
+        "T": "14.959 часов",
+        "dimension": "hours",
+        "radiation": ""
+    },
+    {
+        "mass number": "237",
+        "number": "93",
+        "name": "Нептуний",
+        "symbol": "Np",
+        "T": "2.1 * 10 ** 8 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "256",
+        "number": "102",
+        "name": "Нобелий",
+        "symbol": "No",
+        "T": "8 секунд",
+        "dimension": "seconds",
+        "radiation": "α"
+    },
+    {
+        "mass number": "231",
+        "number": "91",
+        "name": "Протактиний",
+        "symbol": "Pa",
+        "T": "3.2 * 10 ** 4 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "147",
+        "number": "61",
+        "name": "Прометий",
+        "symbol": "Pm",
+        "T": "2.5 года",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "214",
+        "number": "84",
+        "name": "Полоний",
+        "symbol": "Po",
+        "T": "0.16 секунды",
+        "dimension": "seconds",
+        "radiation": "α"
+    },
+    {
+        "mass number": "242",
+        "number": "94",
+        "name": "Плутоний",
+        "symbol": "Pu",
+        "T": "3.3 * 10 ** 5 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "226",
+        "number": "88",
+        "name": "Радий",
+        "symbol": "Ra",
+        "T": "1622 года",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "222",
+        "number": "86",
+        "name": "Радон",
+        "symbol": "Rn",
+        "T": "3.83 дня",
+        "dimension": "days",
+        "radiation": "α"
+    },
+    {
+        "mass number": "87",
+        "number": "37",
+        "name": "Рубидий",
+        "symbol": "Rb",
+        "T": "49.7 * 10 ** 9 лет",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "35",
+        "number": "16",
+        "name": "Сера",
+        "symbol": "S",
+        "T": "87.51 дней",
+        "dimension": "days",
+        "radiation": ""
+    },
+    {
+        "mass number": "99",
+        "number": "43",
+        "name": "Технеций",
+        "symbol": "Tc",
+        "T": "2.1 * 10 ** 5 лет",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "232",
+        "number": "90",
+        "name": "Торий",
+        "symbol": "Th",
+        "T": "1.4 * 10 ** 10 лет",
+        "dimension": "years",
+        "radiation": "α"
+    },
+    {
+        "mass number": "240",
+        "number": "92",
+        "name": "Уран",
+        "symbol": "U",
+        "T": "14 часов",
+        "dimension": "hours",
+        "radiation": "β"
+    },
+    {
+        "mass number": "14",
+        "number": "6",
+        "name": "Углерод",
+        "symbol": "C",
+        "T": "5700 лет",
+        "dimension": "years",
+        "radiation": "β"
+    },
+    {
+        "mass number": "137",
+        "number": "55",
+        "name": "Цезий",
+        "symbol": "Cs",
+        "T": "30 лет",
+        "dimension": "years",
+        "radiation": "β"
+    }
+]
