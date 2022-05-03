@@ -53,18 +53,28 @@ class MainWindow(QMainWindow):
         import matplotlib.pyplot as plt
         import os
 
-        try:
+        if self.number.text().isdigit():
             n0 = int(self.number.text())
-        except Exception:
-            self.error_label.setText('Введено неверное число. Число частиц = 128')
+            if self.time.text().isdigit():
+                if int(self.time.text()) > 1:
+                    ti = int(self.time.text())
+                else:
+                    self.error_label.setText('Введено неверное время. Время наблюдения = 10T')
+                    ti = 10
+            else:
+                self.error_label.setText('Введено неверное время. Время наблюдения = 10T')
+                ti = 10
+        else:
+            self.error_label.setText('Введено неверное число частиц и/или время. Число частиц = 128 Время наблюдения = 10T')
             n0 = 128
+            ti = 10
         element = find_element(self.elem_chooser.currentText())
         T = eval(" ".join(element["T"].split()[:-1]))
         razmer = element["T"].split()[-1]
-        t = [T * i for i in range(10)]
+        t = [T * i for i in range(ti)]
         n = [n0 * 2 ** (-i / T) for i in t]
         plt.clf()
-        plt.plot(n, t)
+        plt.plot(t, n)
         plt.ylabel('n')
         plt.xlabel(f't, {razmer}')
         if 'plot.jpg' in os.listdir():
