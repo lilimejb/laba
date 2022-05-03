@@ -7,8 +7,6 @@ from PyQt5.QtGui import QPixmap
 with open('elements.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-N0 = 128
-
 
 def find_element(name):
     for elem in data:
@@ -37,7 +35,6 @@ class MainWindow(QMainWindow):
         self.save.clicked.connect(self.save_graph)
         print(self.graph.pixmap())
 
-
     def save_graph(self):
         import shutil
         import os
@@ -52,16 +49,21 @@ class MainWindow(QMainWindow):
         else:
             self.error_label.setText('Чтобы сохранить график нужно его построить')
 
-
     def graphastoika(self):
         import matplotlib.pyplot as plt
         import os
 
+        try:
+            n0 = int(self.number.text())
+        except Exception:
+            self.error_label.setText('Введено неверное число. Число частиц = 128')
+            n0 = 128
         element = find_element(self.elem_chooser.currentText())
         T = eval(" ".join(element["T"].split()[:-1]))
         razmer = element["T"].split()[-1]
         t = [T * i for i in range(10)]
-        n = [N0 * 2 ** (-i / T) for i in t]
+        n = [n0 * 2 ** (-i / T) for i in t]
+        plt.clf()
         plt.plot(n, t)
         plt.ylabel('n')
         plt.xlabel(f't, {razmer}')
@@ -69,7 +71,6 @@ class MainWindow(QMainWindow):
             os.remove('plot.jpg')
         plt.savefig('plot.jpg')
         self.graph.setPixmap(QPixmap('plot.jpg'))
-
 
     def show_info(self):
         element = find_element(self.sender().currentText())

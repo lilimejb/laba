@@ -39,7 +39,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>181</width>
+      <width>351</width>
       <height>31</height>
      </rect>
     </property>
@@ -49,15 +49,15 @@
      </font>
     </property>
     <property name="text">
-     <string>Выберите элемент</string>
+     <string>Выберите элемент и кол-во частиц</string>
     </property>
    </widget>
    <widget class="QLabel" name="graph">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>360</x>
       <y>0</y>
-      <width>601</width>
+      <width>591</width>
       <height>521</height>
      </rect>
     </property>
@@ -130,6 +130,16 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="number">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>50</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
     </property>
    </widget>
   </widget>
